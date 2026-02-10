@@ -11,7 +11,6 @@ struct Student {
     char grade;
 };
 
-// Function to calculate grade
 char calculateGrade(float percentage) {
     if (percentage >= 80)
         return 'A';
